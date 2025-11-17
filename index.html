@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>We Pioners Auth | خدمة عربية للتحقق عبر واتساب (OTP API)</title>
+
+  <meta name="description"
+        content="We Pioners Auth هي خدمة عربية للتحقق عبر الواتساب (WhatsApp OTP API) للمطورين وأصحاب المشاريع. ربط سهل عبر REST API، سعر شهري منافس، ودعم عربي بالكامل." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="We Pioners Auth | خدمة عربية للتحقق عبر واتساب للمطورين" />
+  <meta property="og:description"
+        content="ارسل كود التحقق (OTP) عبر الواتساب خلال ثوانٍ. API بسيط، توثيق عربي وإنجليزي، وسعر شهري منافس." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#hero" class="logo">
+        <span class="logo-main">We Pioners</span>
+        <span class="logo-sub">Auth</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#features">المميزات</a>
+        <a href="#how-it-works">كيف تعمل</a>
+        <a href="#code">أمثلة الكود</a>
+        <a href="#pricing">الأسعار</a>
+        <a href="#ultramsg-alt">بديل UltraMSG</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="#contact" class="nav-cta">ابدأ الآن</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="قائمة">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>خدمة عربية للتحقق عبر الواتساب للمطورين</h1>
+        <p class="hero-subtitle">
+          <strong>We Pioners Auth</strong> هي بوابة <span class="highlight">WhatsApp OTP API</span>
+          تُمكّنك من إرسال أكواد التحقق لعملائك عبر الواتساب خلال ثوانٍ، بسعر شهري أقل من
+          مزودات عالمية مثل UltraMSG وبجودة أعلى وتجربة عربية مريحة.
+        </p>
+
+        <div class="hero-badges">
+          <span class="badge">دعم عربي + إنجليزي</span>
+          <span class="badge">سعر شهري ثابت</span>
+          <span class="badge">REST API بسيط</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn primary">اطلب الوصول المبكر</a>
+          <a href="#code" class="btn ghost">شاهد مثال الكود</a>
+        </div>
+
+        <p class="hero-note">
+          موجه للمطورين وأصحاب التطبيقات والمتاجر الإلكترونية في الوطن العربي.
+        </p>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <span class="pill pill-green">Demo API</span>
+          <span class="pill pill-outline">REST · JSON</span>
+        </div>
+
+        <pre class="code-block"><code>// مثال طلب إرسال كود تحقق عبر واتساب (Node.js)
+
+POST https://api.wepioners-auth.com/v1/whatsapp/otp
+Headers:
+  Authorization: Bearer YOUR_API_KEY
+  Content-Type: application/json
+
+Body:
+{
+  "phone": "+9647700000000",
+  "channel": "whatsapp",
+  "code_length": 6,
+  "expire_in": 300
+}</code></pre>
+
+        <p class="hero-card-caption">
+          استدعاء HTTP واحد يكفي لإرسال كود التحقق لعميلك.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title">لماذا We Pioners Auth؟</h2>
+      <p class="section-subtitle">
+        كل ما تحتاجه لدمج التحقق عبر الواتساب في تطبيقك أو موقعك، في دقائق بدل أيام.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>API بسيط للمطورين</h3>
+          <p>
+            تصميم الـ API بسيط وواضح، باستخدام REST و JSON. يمكن دمجه بسهولة مع
+            أي Backend (Node.js, PHP, Laravel, Python, .NET، وغيرها).
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>توثيق عربي + إنجليزي</h3>
+          <p>
+            نصوص واضحة، أمثلة واقعية، وشرح خطوة بخطوة للمطورين الجدد والمحترفين،
+            مع صفحة Docs سهلة التصفح.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>سعر شهري منافس</h3>
+          <p>
+            اشتراك شهري ثابت يبدأ من <strong>20$</strong> فقط، بدون تعقيد في
+            التسعير، وبدون مفآجات في الفواتير.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>دعم عربي حقيقي</h3>
+          <p>
+            فريق دعم يفهم احتياجات المشاريع العربية في الشرق الأوسط وشمال أفريقيا،
+            عبر البريد، الواتساب، وتيليجرام.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>جاهز للتوسع</h3>
+          <p>
+            بنية قابلة للتوسع للتعامل مع آلاف الرسائل، مع مراقبة للأداء
+            وسجلات (Logs) تستطيع قراءتها بسهولة.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>أمان وموثوقية</h3>
+          <p>
+            مفاتيح API آمنة، صلاحيات متعددة، وإدارة مفاتيح من لوحة تحكم
+            خاصة بالمطور.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How it works ===== -->
+  <section class="section section-alt" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">كيف تعمل الخدمة؟</h2>
+      <p class="section-subtitle">
+        من تسجيل الحساب إلى استقبال أول كود تحقق لدى عميلك – 3 خطوات بسيطة.
+      </p>
+
+      <div class="steps-grid">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>أنشئ حسابًا واحصل على API Key</h3>
+          <p>
+            تسجل في We Pioners Auth، فعّل رقم الواتساب الخاص بك، واحصل على مفتاح
+            API السري الخاص بتطبيقك.
+          </p>
+        </div>
+
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>اربطه بتطبيقك أو موقعك</h3>
+          <p>
+            أضف استدعاء بسيط من Backend لديك لإرسال كود التحقق عند تسجيل المستخدم،
+            تسجيل الدخول، أو أي عملية حساسة.
+          </p>
+        </div>
+
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>تحقق من الكود بكل سهولة</h3>
+          <p>
+            استخدم Endpoint مخصص لتأكيد الكود الذي أدخله المستخدم، واسمح له بإكمال
+            التسجيل أو العملية بأمان.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Code Examples ===== -->
+  <section class="section" id="code">
+    <div class="container">
+      <h2 class="section-title">أمثلة كود للمطورين</h2>
+      <p class="section-subtitle">
+        أمثلة سريعة يمكنك نسخها ولصقها في مشروعك مباشرة.
+      </p>
+
+      <div class="code-grid">
+        <div class="code-card">
+          <h3>Node.js (Axios)</h3>
+          <pre class="code-block"><code>import axios from "axios";
+
+const apiKey = "YOUR_API_KEY";
+
+async function sendOtp(phone) {
+  const res = await axios.post(
+    "https://api.wepioners-auth.com/v1/whatsapp/otp",
+    {
+      phone,
+      channel: "whatsapp",
+      code_length: 6,
+      expire_in: 300
+    },
+    {
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+      },
+    }
+  );
+
+  console.log(res.data);
+}</code></pre>
+        </div>
+
+        <div class="code-card">
+          <h3>PHP (cURL)</h3>
+          <pre class="code-block"><code>&lt;?php
+$ch = curl_init("https://api.wepioners-auth.com/v1/whatsapp/otp");
+
+$data = [
+  "phone" =&gt; "+9647700000000",
+  "channel" =&gt; "whatsapp",
+  "code_length" =&gt; 6,
+  "expire_in" =&gt; 300
+];
+
+curl_setopt_array($ch, [
+  CURLOPT_RETURNTRANSFER =&gt; true,
+  CURLOPT_POST =&gt; true,
+  CURLOPT_POSTFIELDS =&gt; json_encode($data),
+  CURLOPT_HTTPHEADER =&gt; [
+    "Content-Type: application/json",
+    "Authorization: Bearer YOUR_API_KEY"
+  ]
+]);
+
+$response = curl_exec($ch);
+curl_close($ch);
+
+echo $response;</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pricing ===== -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <h2 class="section-title">الأسعار</h2>
+      <p class="section-subtitle">
+        خطط بسيطة وواضحة… بدون تعقيد في التسعير.
+      </p>
+
+      <div class="pricing-grid">
+        <div class="pricing-card best">
+          <div class="pricing-header">
+            <h3>الخطة الأساسية</h3>
+            <p>مثالية للـ Startups وأصحاب التطبيقات والمتاجر الصغيرة والمتوسطة.</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price">$20</span>
+            <span class="price-period">/ شهريًا</span>
+          </div>
+          <ul class="pricing-list">
+            <li>عدد كبير من الرسائل شهريًا*</li>
+            <li>قناة واتساب واحدة</li>
+            <li>API كامل + Webhooks</li>
+            <li>دعم عبر البريد والواتساب</li>
+            <li>توثيق عربي + إنجليزي</li>
+          </ul>
+          <p class="pricing-note">
+            * يمكن تعديل الحدود حسب احتياجك، تواصل معنا لخطة مخصصة.
+          </p>
+          <a href="#contact" class="btn primary full">اطلب عرضًا أو تجربة</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>خطة مخصصة للشركات</h3>
+            <p>للشركات والمتاجر الكبرى التي تحتاج أكثر من رقم واتساب أو حجم رسائل ضخم.</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price">حسب الطلب</span>
+          </div>
+          <ul class="pricing-list">
+            <li>أكثر من قناة واتساب</li>
+            <li>لدينا تكاملات مخصصة بأنظمتك الداخلية</li>
+            <li>دعم أولوية عالية</li>
+            <li>استضافة مرنة ومخصصة</li>
+          </ul>
+          <a href="#contact" class="btn ghost full">تواصل معنا للشركات</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== UltraMSG Alternative Section ===== -->
+  <section class="section" id="ultramsg-alt">
+    <div class="container">
+      <h2 class="section-title">بديل عربي لـ UltraMSG</h2>
+      <p class="section-subtitle">
+        We Pioners Auth صُمّمت لتكون خيارًا عربيًا ينافس مزودات مثل UltraMSG،
+        بسعر شهري أقل وتجربة مخصصة لاحتياجات السوق العربي والمطور العربي.
+      </p>
+
+      <div class="compare-grid">
+        <div class="compare-card">
+          <h3>UltraMSG</h3>
+          <ul>
+            <li>واجهة إنجليزية بالكامل</li>
+            <li>موجهة بشكل أساسي للسوق العالمي</li>
+            <li>سعر شهري أعلى للمشاريع الصغيرة</li>
+          </ul>
+        </div>
+
+        <div class="compare-card highlight">
+          <h3>We Pioners Auth</h3>
+          <ul>
+            <li>واجهة عربية + إنجليزية</li>
+            <li>موجهة للسوق العربي مع فهم حقيقي للاحتياج</li>
+            <li>سعر شهري يبدأ من <strong>20$</strong></li>
+            <li>إمكانية دعمك تقنيًا في الدمج مع مشروعك الفعلي</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="compare-note">
+        * We Pioners Auth ليست تابعة لـ WhatsApp أو Meta أو UltraMSG.  
+        WhatsApp علامة تجارية مملوكة لشركة Meta Platforms, Inc.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <h2 class="section-title">الأسئلة الشائعة</h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            هل الخدمة رسمية من واتساب؟
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              لا، We Pioners Auth ليست خدمة رسمية من واتساب، ولكنها طبقة (Gateway)
+              تساعدك في استخدام واتساب كقناة لإرسال أكواد التحقق (OTP).  
+              واتساب علامة تجارية مملوكة لــ Meta.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            هل أستطيع تجربتها قبل الاشتراك؟
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              نعم، يمكننا توفير فترة تجربة محدودة أو رصيد تجريبي للمطورين الجادين.
+              تواصل معنا عبر النموذج في الأسفل وسنخبرك بالتفاصيل.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            هل يوجد توثيق (Documentation) للمطورين؟
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              نعم، لدينا توثيق واضح بالعربية والإنجليزية، مع أمثلة جاهزة لـ Node.js,
+              PHP, Laravel, Python وغيرها. سنرسل لك رابط التوثيق بعد التسجيل.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            ما هي طرق الدفع المتاحة؟
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              ندعم التحويل البنكي، بوابات دفع إلكترونية، ويمكن إضافة طرق دفع أخرى
+              حسب بلدك واحتياجك.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">اطلب الوصول أو تحدث معنا</h2>
+      <p class="section-subtitle">
+        اكتب لنا تفاصيل مشروعك لنساعدك على استخدام We Pioners Auth بأفضل طريقة.
+      </p>
+
+      <div class="contact-grid">
+        <form class="contact-form" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+          <div class="form-row">
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" required placeholder="الاسم الكامل" />
+          </div>
+
+          <div class="form-row">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" />
+          </div>
+
+          <div class="form-row">
+            <label for="project">وصف المشروع</label>
+            <textarea id="project" name="project" rows="4"
+              placeholder="نوع مشروعك، التقنية المستخدمة، وعدد الرسائل التقريبي شهريًا"></textarea>
+          </div>
+
+          <button type="submit" class="btn primary full">إرسال</button>
+          <p class="form-note">
+            يمكنك أيضًا التواصل معنا مباشرة عبر البريد: <strong>support@wepioners.com</strong>
+          </p>
+        </form>
+
+        <div class="contact-info">
+          <h3>مناسب لـ:</h3>
+          <ul>
+            <li>أصحاب التطبيقات (Android / iOS / Flutter)</li>
+            <li>منصات التجارة الإلكترونية</li>
+            <li>منصات SaaS</li>
+            <li>الشركات التي تحتاج تحقق ثنائي (2FA)</li>
+          </ul>
+          <p class="contact-text">
+            إن كنت مطورًا أو شركة وتبحث عن بديل عربي لخدمات التحقق عبر الواتساب،
+            فنحن نبني We Pioners Auth خصيصًا لك.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>
+        © <span id="year"></span> We Pioners Auth – جميع الحقوق محفوظة.
+      </p>
+      <p class="footer-note">
+        WhatsApp علامة تجارية مملوكة لشركة Meta Platforms, Inc.  
+        We Pioners Auth خدمة مستقلة غير تابعة رسميًا لـ Meta أو WhatsApp.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
