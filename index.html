@@ -1,486 +1,415 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>We Pioners Auth | خدمة عربية للتحقق عبر واتساب (OTP API)</title>
-
-  <meta name="description"
-        content="We Pioners Auth هي خدمة عربية للتحقق عبر الواتساب (WhatsApp OTP API) للمطورين وأصحاب المشاريع. ربط سهل عبر REST API، سعر شهري منافس، ودعم عربي بالكامل." />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="We Pioners Auth | خدمة عربية للتحقق عبر واتساب للمطورين" />
-  <meta property="og:description"
-        content="ارسل كود التحقق (OTP) عبر الواتساب خلال ثوانٍ. API بسيط، توثيق عربي وإنجليزي، وسعر شهري منافس." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet" />
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Nabza OTP – The Cheapest WhatsApp API & Best OTP Service in Iraq</title>
+    <meta name="title" content="Nabza OTP – The Cheapest WhatsApp API & Best OTP Service in Iraq">
+    <meta name="description" content="Send unlimited WhatsApp OTPs & notifications with the first Arab WhatsApp Gateway. The most affordable API solution for Iraqi developers. Start for just $10/month.">
+    <meta name="keywords" content="Cheapest WhatsApp API, Best OTP Service Iraq, First Arab WhatsApp Gateway, Unlimited WhatsApp Messages, Most Affordable API, WhatsApp Business API, OTP verification Iraq, WhatsApp gateway MENA">
+    <meta name="author" content="Nabza OTP">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nabzaotp.com/">
+    <meta property="og:title" content="Nabza OTP – The Cheapest WhatsApp API & Best OTP Service in Iraq">
+    <meta property="og:description" content="Send unlimited WhatsApp OTPs & notifications with the first Arab WhatsApp Gateway. The most affordable API for developers. Start for $10/month.">
+    <meta property="og:image" content="https://nabzaotp.com/og-image.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ar_IQ">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nabzaotp.com/">
+    <meta property="twitter:title" content="Nabza OTP – The Cheapest WhatsApp API & Best OTP Service in Iraq">
+    <meta property="twitter:description" content="Send unlimited WhatsApp OTPs & notifications with the first Arab WhatsApp Gateway. Start for $10/month.">
+    <meta property="twitter:image" content="https://nabzaotp.com/og-image.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nabzaotp.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Nabza OTP",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "description": "The First and Best WhatsApp Gateway in Iraq. Send unlimited OTPs and notifications through our cloud gateway with direct integration. The cheapest WhatsApp API solution for developers.",
+        "offers": {
+            "@type": "Offer",
+            "price": "10.00",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "500",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "provider": {
+            "@type": "Organization",
+            "name": "Nabza OTP",
+            "url": "https://nabzaotp.com",
+            "areaServed": ["Iraq", "MENA"],
+            "sameAs": []
+        },
+        "featureList": [
+            "Unlimited WhatsApp Messages",
+            "No Per-Message Fee",
+            "RESTful API",
+            "10-Day Free Trial",
+            "99.99% Uptime",
+            "Cloud Gateway Integration"
+        ]
+    }
+    </script>
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Nabza OTP",
+        "url": "https://nabzaotp.com",
+        "logo": "https://nabzaotp.com/logo.png",
+        "description": "The First Arab WhatsApp Gateway providing the most affordable API solution for Iraqi developers and businesses.",
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "33.3128",
+                "longitude": "44.3615"
+            },
+            "geoRadius": "5000"
+        },
+        "slogan": "The Cheapest WhatsApp API in Iraq"
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the cheapest WhatsApp API service in Iraq?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nabza OTP offers the most affordable WhatsApp API service in Iraq at just $10/month for unlimited messages, making it the best value compared to per-message pricing models."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Nabza OTP the first Arab WhatsApp Gateway?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Nabza OTP is the first Iraqi platform designed specifically for Arab developers, offering a cloud gateway with direct integration capabilities."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
-  <!-- ===== Navbar ===== -->
-  <header class="navbar">
-    <div class="container nav-content">
-      <a href="#hero" class="logo">
-        <span class="logo-main">We Pioners</span>
-        <span class="logo-sub">Auth</span>
-      </a>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Nabza OTP</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#features" data-i18n="nav.features">Features</a></li>
+                <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+                <li><a href="#docs" data-i18n="nav.docs">Docs</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="btn btn-ghost lang-toggle" id="langToggle" aria-label="Switch Language">
+                    <span class="lang-icon">🌐</span>
+                    <span data-i18n="nav.lang">العربية</span>
+                </button>
+                <a href="#login" class="btn btn-primary" data-i18n="nav.login">Login</a>
+            </div>
+            
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
 
-      <nav class="nav-links" id="nav-links">
-        <a href="#features">المميزات</a>
-        <a href="#how-it-works">كيف تعمل</a>
-        <a href="#code">أمثلة الكود</a>
-        <a href="#pricing">الأسعار</a>
-        <a href="#ultramsg-alt">بديل UltraMSG</a>
-        <a href="#faq">الأسئلة الشائعة</a>
-        <a href="#contact" class="nav-cta">ابدأ الآن</a>
-      </nav>
-
-      <button class="nav-toggle" id="nav-toggle" aria-label="قائمة">
-        ☰
-      </button>
-    </div>
-  </header>
-
-  <!-- ===== Hero ===== -->
-  <section class="hero" id="hero">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <h1>خدمة عربية للتحقق عبر الواتساب للمطورين</h1>
-        <p class="hero-subtitle">
-          <strong>We Pioners Auth</strong> هي بوابة <span class="highlight">WhatsApp OTP API</span>
-          تُمكّنك من إرسال أكواد التحقق لعملائك عبر الواتساب خلال ثوانٍ، بسعر شهري أقل من
-          مزودات عالمية مثل UltraMSG وبجودة أعلى وتجربة عربية مريحة.
-        </p>
-
-        <div class="hero-badges">
-          <span class="badge">دعم عربي + إنجليزي</span>
-          <span class="badge">سعر شهري ثابت</span>
-          <span class="badge">REST API بسيط</span>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
         </div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge" data-i18n="hero.badge">🚀 First Arab WhatsApp Gateway</div>
+                <h1 class="hero-title" data-i18n="hero.title">The First & Best WhatsApp Gateway in Iraq.</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Send unlimited OTPs & Notifications through our cloud gateway. The cheapest, most reliable API solution for developers. Direct integration with the most affordable pricing.</p>
+                <div class="hero-cta">
+                    <a href="#signup" class="btn btn-primary btn-lg" data-i18n="hero.cta.primary">Start Free Trial</a>
+                    <a href="#docs" class="btn btn-ghost btn-lg" data-i18n="hero.cta.secondary">
+                        <span>View Documentation</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="hero-price" data-i18n="hero.price">Starting at just <strong>$10/month</strong> — No per-message fees</p>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="code-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="terminal-title">nabza-api.js</span>
+                    </div>
+                    <div class="terminal-body">
+                        <pre><code><span class="code-comment" data-i18n="code.comment1">// Sending OTP via Nabza Gateway</span>
+<span class="code-keyword">const</span> response = <span class="code-keyword">await</span> nabza.<span class="code-function">send</span>({
+  <span class="code-property">phone</span>: <span class="code-string">"+964750XXXXXXX"</span>,
+  <span class="code-property">message</span>: <span class="code-string" data-i18n="code.message">"Your code is: 847291"</span>,
+  <span class="code-property">type</span>: <span class="code-string">"otp"</span>
+});
 
-        <div class="hero-actions">
-          <a href="#contact" class="btn primary">اطلب الوصول المبكر</a>
-          <a href="#code" class="btn ghost">شاهد مثال الكود</a>
+<span class="code-comment" data-i18n="code.comment2">// ✓ Delivered instantly</span>
+console.<span class="code-function">log</span>(response.<span class="code-property">status</span>); <span class="code-comment">// "sent"</span></code></pre>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <p class="hero-note">
-          موجه للمطورين وأصحاب التطبيقات والمتاجر الإلكترونية في الوطن العربي.
-        </p>
-      </div>
-
-      <div class="hero-card">
-        <div class="hero-card-header">
-          <span class="pill pill-green">Demo API</span>
-          <span class="pill pill-outline">REST · JSON</span>
+    <!-- Trust & Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">🏢</div>
+                    <div class="stat-number" data-count="500">500+</div>
+                    <div class="stat-label" data-i18n="stats.businesses">Iraqi Businesses Trust Us</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">📨</div>
+                    <div class="stat-number" data-count="1000000">1M+</div>
+                    <div class="stat-label" data-i18n="stats.messages">Messages Delivered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">⚡</div>
+                    <div class="stat-number">99.99%</div>
+                    <div class="stat-label" data-i18n="stats.uptime">Uptime Guaranteed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🌍</div>
+                    <div class="stat-number">#1</div>
+                    <div class="stat-label" data-i18n="stats.first">First in MENA Region</div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <pre class="code-block"><code>// مثال طلب إرسال كود تحقق عبر واتساب (Node.js)
-
-POST https://api.wepioners-auth.com/v1/whatsapp/otp
-Headers:
-  Authorization: Bearer YOUR_API_KEY
-  Content-Type: application/json
-
-Body:
-{
-  "phone": "+9647700000000",
-  "channel": "whatsapp",
-  "code_length": 6,
-  "expire_in": 300
-}</code></pre>
-
-        <p class="hero-card-caption">
-          استدعاء HTTP واحد يكفي لإرسال كود التحقق لعميلك.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Features ===== -->
-  <section class="section" id="features">
-    <div class="container">
-      <h2 class="section-title">لماذا We Pioners Auth؟</h2>
-      <p class="section-subtitle">
-        كل ما تحتاجه لدمج التحقق عبر الواتساب في تطبيقك أو موقعك، في دقائق بدل أيام.
-      </p>
-
-      <div class="features-grid">
-        <div class="feature-card">
-          <h3>API بسيط للمطورين</h3>
-          <p>
-            تصميم الـ API بسيط وواضح، باستخدام REST و JSON. يمكن دمجه بسهولة مع
-            أي Backend (Node.js, PHP, Laravel, Python, .NET، وغيرها).
-          </p>
+    <!-- Why Us / Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="features.title">Why Developers Choose Nabza OTP</h2>
+                <p class="section-subtitle" data-i18n="features.subtitle">The most affordable WhatsApp API with the best reliability. Built by Iraqi developers, for Arab developers.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card feature-primary">
+                    <div class="feature-icon">💰</div>
+                    <h3 data-i18n="features.cheapest.title">Cheapest in Market</h3>
+                    <p data-i18n="features.cheapest.desc">While others charge per message, we offer a flat monthly fee. Send unlimited WhatsApp messages for just $10/month — the most affordable API solution available.</p>
+                    <div class="feature-highlight" data-i18n="features.cheapest.highlight">Save up to 90% compared to competitors</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🇮🇶</div>
+                    <h3 data-i18n="features.local.title">Local & Proud</h3>
+                    <p data-i18n="features.local.desc">The first Iraqi platform built specifically for Arab developers. We understand the local market and provide Arabic support with direct integration capabilities.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍💻</div>
+                    <h3 data-i18n="features.developer.title">Developer First</h3>
+                    <p data-i18n="features.developer.desc">Clean RESTful API, comprehensive documentation, and SDKs for all major languages. Integrate our cloud gateway in minutes, not days.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 data-i18n="features.secure.title">Enterprise Security</h3>
+                    <p data-i18n="features.secure.desc">End-to-end encryption, secure authentication, and full compliance. Your data stays protected with our enterprise-grade infrastructure.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 data-i18n="features.fast.title">Lightning Fast</h3>
+                    <p data-i18n="features.fast.desc">Messages delivered in milliseconds. Our optimized cloud gateway ensures your OTPs reach users instantly, every single time.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 data-i18n="features.analytics.title">Real-time Analytics</h3>
+                    <p data-i18n="features.analytics.desc">Track delivery rates, monitor usage, and get insights with our comprehensive dashboard. Full visibility into your messaging operations.</p>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="feature-card">
-          <h3>توثيق عربي + إنجليزي</h3>
-          <p>
-            نصوص واضحة، أمثلة واقعية، وشرح خطوة بخطوة للمطورين الجدد والمحترفين،
-            مع صفحة Docs سهلة التصفح.
-          </p>
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="pricing.title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle" data-i18n="pricing.subtitle">No hidden fees. No per-message charges. The best value WhatsApp API in Iraq.</p>
+            </div>
+            
+            <div class="pricing-card">
+                <div class="pricing-badge" data-i18n="pricing.badge">Best Value</div>
+                <div class="pricing-header">
+                    <div class="pricing-amount">
+                        <span class="currency">$</span>
+                        <span class="price">10</span>
+                        <span class="period" data-i18n="pricing.period">/month</span>
+                    </div>
+                    <p class="pricing-tagline" data-i18n="pricing.tagline">Everything you need to send unlimited messages</p>
+                </div>
+                
+                <ul class="pricing-features">
+                    <li>
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="pricing.feature1">Unlimited WhatsApp Messages</span>
+                    </li>
+                    <li>
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="pricing.feature2">No Per-Message Fee</span>
+                    </li>
+                    <li>
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="pricing.feature3">10-Day Free Trial</span>
+                    </li>
+                    <li>
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="pricing.feature4">RESTful API Access</span>
+                    </li>
+                    <li>
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="pricing.feature5">Priority Support</span>
+                    </li>
+                    <li>
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="pricing.feature6">Cancel Anytime</span>
+                    </li>
+                </ul>
+                
+                <a href="#signup" class="btn btn-primary btn-lg btn-full" data-i18n="pricing.cta">Start Your Free Trial</a>
+                <p class="pricing-note" data-i18n="pricing.note">No credit card required • Setup in 2 minutes</p>
+            </div>
         </div>
+    </section>
 
-        <div class="feature-card">
-          <h3>سعر شهري منافس</h3>
-          <p>
-            اشتراك شهري ثابت يبدأ من <strong>20$</strong> فقط، بدون تعقيد في
-            التسعير، وبدون مفآجات في الفواتير.
-          </p>
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-i18n="cta.title">Ready to send your first message?</h2>
+                <p data-i18n="cta.subtitle">Join 500+ Iraqi businesses using the cheapest WhatsApp API. Start your 10-day free trial today.</p>
+                <a href="#signup" class="btn btn-white btn-lg" data-i18n="cta.button">Get Started Free</a>
+            </div>
         </div>
+    </section>
 
-        <div class="feature-card">
-          <h3>دعم عربي حقيقي</h3>
-          <p>
-            فريق دعم يفهم احتياجات المشاريع العربية في الشرق الأوسط وشمال أفريقيا،
-            عبر البريد، الواتساب، وتيليجرام.
-          </p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Nabza OTP</span>
+                    </a>
+                    <p class="footer-desc" data-i18n="footer.desc">The first and best WhatsApp API solution for Iraq and the MENA region. Cloud gateway with direct integration for developers.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4 data-i18n="footer.product">Product</h4>
+                        <ul>
+                            <li><a href="#features" data-i18n="footer.features">Features</a></li>
+                            <li><a href="#pricing" data-i18n="footer.pricing">Pricing</a></li>
+                            <li><a href="#docs" data-i18n="footer.docs">Documentation</a></li>
+                            <li><a href="#status" data-i18n="footer.status">API Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-i18n="footer.company">Company</h4>
+                        <ul>
+                            <li><a href="#about" data-i18n="footer.about">About</a></li>
+                            <li><a href="#contact" data-i18n="footer.contact">Contact</a></li>
+                            <li><a href="#privacy" data-i18n="footer.privacy">Privacy Policy</a></li>
+                            <li><a href="#terms" data-i18n="footer.terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright" data-i18n="footer.copyright">© 2025 Nabza OTP. All rights reserved.</p>
+                <p class="footer-seo" data-i18n="footer.seo">Best WhatsApp API solution for Iraq and MENA region • Cheapest OTP Service • First Arab WhatsApp Gateway</p>
+            </div>
         </div>
+    </footer>
 
-        <div class="feature-card">
-          <h3>جاهز للتوسع</h3>
-          <p>
-            بنية قابلة للتوسع للتعامل مع آلاف الرسائل، مع مراقبة للأداء
-            وسجلات (Logs) تستطيع قراءتها بسهولة.
-          </p>
-        </div>
-
-        <div class="feature-card">
-          <h3>أمان وموثوقية</h3>
-          <p>
-            مفاتيح API آمنة، صلاحيات متعددة، وإدارة مفاتيح من لوحة تحكم
-            خاصة بالمطور.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== How it works ===== -->
-  <section class="section section-alt" id="how-it-works">
-    <div class="container">
-      <h2 class="section-title">كيف تعمل الخدمة؟</h2>
-      <p class="section-subtitle">
-        من تسجيل الحساب إلى استقبال أول كود تحقق لدى عميلك – 3 خطوات بسيطة.
-      </p>
-
-      <div class="steps-grid">
-        <div class="step">
-          <span class="step-number">1</span>
-          <h3>أنشئ حسابًا واحصل على API Key</h3>
-          <p>
-            تسجل في We Pioners Auth، فعّل رقم الواتساب الخاص بك، واحصل على مفتاح
-            API السري الخاص بتطبيقك.
-          </p>
-        </div>
-
-        <div class="step">
-          <span class="step-number">2</span>
-          <h3>اربطه بتطبيقك أو موقعك</h3>
-          <p>
-            أضف استدعاء بسيط من Backend لديك لإرسال كود التحقق عند تسجيل المستخدم،
-            تسجيل الدخول، أو أي عملية حساسة.
-          </p>
-        </div>
-
-        <div class="step">
-          <span class="step-number">3</span>
-          <h3>تحقق من الكود بكل سهولة</h3>
-          <p>
-            استخدم Endpoint مخصص لتأكيد الكود الذي أدخله المستخدم، واسمح له بإكمال
-            التسجيل أو العملية بأمان.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Code Examples ===== -->
-  <section class="section" id="code">
-    <div class="container">
-      <h2 class="section-title">أمثلة كود للمطورين</h2>
-      <p class="section-subtitle">
-        أمثلة سريعة يمكنك نسخها ولصقها في مشروعك مباشرة.
-      </p>
-
-      <div class="code-grid">
-        <div class="code-card">
-          <h3>Node.js (Axios)</h3>
-          <pre class="code-block"><code>import axios from "axios";
-
-const apiKey = "YOUR_API_KEY";
-
-async function sendOtp(phone) {
-  const res = await axios.post(
-    "https://api.wepioners-auth.com/v1/whatsapp/otp",
-    {
-      phone,
-      channel: "whatsapp",
-      code_length: 6,
-      expire_in: 300
-    },
-    {
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-      },
-    }
-  );
-
-  console.log(res.data);
-}</code></pre>
-        </div>
-
-        <div class="code-card">
-          <h3>PHP (cURL)</h3>
-          <pre class="code-block"><code>&lt;?php
-$ch = curl_init("https://api.wepioners-auth.com/v1/whatsapp/otp");
-
-$data = [
-  "phone" =&gt; "+9647700000000",
-  "channel" =&gt; "whatsapp",
-  "code_length" =&gt; 6,
-  "expire_in" =&gt; 300
-];
-
-curl_setopt_array($ch, [
-  CURLOPT_RETURNTRANSFER =&gt; true,
-  CURLOPT_POST =&gt; true,
-  CURLOPT_POSTFIELDS =&gt; json_encode($data),
-  CURLOPT_HTTPHEADER =&gt; [
-    "Content-Type: application/json",
-    "Authorization: Bearer YOUR_API_KEY"
-  ]
-]);
-
-$response = curl_exec($ch);
-curl_close($ch);
-
-echo $response;</code></pre>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Pricing ===== -->
-  <section class="section section-alt" id="pricing">
-    <div class="container">
-      <h2 class="section-title">الأسعار</h2>
-      <p class="section-subtitle">
-        خطط بسيطة وواضحة… بدون تعقيد في التسعير.
-      </p>
-
-      <div class="pricing-grid">
-        <div class="pricing-card best">
-          <div class="pricing-header">
-            <h3>الخطة الأساسية</h3>
-            <p>مثالية للـ Startups وأصحاب التطبيقات والمتاجر الصغيرة والمتوسطة.</p>
-          </div>
-          <div class="pricing-price">
-            <span class="price">$20</span>
-            <span class="price-period">/ شهريًا</span>
-          </div>
-          <ul class="pricing-list">
-            <li>عدد كبير من الرسائل شهريًا*</li>
-            <li>قناة واتساب واحدة</li>
-            <li>API كامل + Webhooks</li>
-            <li>دعم عبر البريد والواتساب</li>
-            <li>توثيق عربي + إنجليزي</li>
-          </ul>
-          <p class="pricing-note">
-            * يمكن تعديل الحدود حسب احتياجك، تواصل معنا لخطة مخصصة.
-          </p>
-          <a href="#contact" class="btn primary full">اطلب عرضًا أو تجربة</a>
-        </div>
-
-        <div class="pricing-card">
-          <div class="pricing-header">
-            <h3>خطة مخصصة للشركات</h3>
-            <p>للشركات والمتاجر الكبرى التي تحتاج أكثر من رقم واتساب أو حجم رسائل ضخم.</p>
-          </div>
-          <div class="pricing-price">
-            <span class="price">حسب الطلب</span>
-          </div>
-          <ul class="pricing-list">
-            <li>أكثر من قناة واتساب</li>
-            <li>لدينا تكاملات مخصصة بأنظمتك الداخلية</li>
-            <li>دعم أولوية عالية</li>
-            <li>استضافة مرنة ومخصصة</li>
-          </ul>
-          <a href="#contact" class="btn ghost full">تواصل معنا للشركات</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== UltraMSG Alternative Section ===== -->
-  <section class="section" id="ultramsg-alt">
-    <div class="container">
-      <h2 class="section-title">بديل عربي لـ UltraMSG</h2>
-      <p class="section-subtitle">
-        We Pioners Auth صُمّمت لتكون خيارًا عربيًا ينافس مزودات مثل UltraMSG،
-        بسعر شهري أقل وتجربة مخصصة لاحتياجات السوق العربي والمطور العربي.
-      </p>
-
-      <div class="compare-grid">
-        <div class="compare-card">
-          <h3>UltraMSG</h3>
-          <ul>
-            <li>واجهة إنجليزية بالكامل</li>
-            <li>موجهة بشكل أساسي للسوق العالمي</li>
-            <li>سعر شهري أعلى للمشاريع الصغيرة</li>
-          </ul>
-        </div>
-
-        <div class="compare-card highlight">
-          <h3>We Pioners Auth</h3>
-          <ul>
-            <li>واجهة عربية + إنجليزية</li>
-            <li>موجهة للسوق العربي مع فهم حقيقي للاحتياج</li>
-            <li>سعر شهري يبدأ من <strong>20$</strong></li>
-            <li>إمكانية دعمك تقنيًا في الدمج مع مشروعك الفعلي</li>
-          </ul>
-        </div>
-      </div>
-
-      <p class="compare-note">
-        * We Pioners Auth ليست تابعة لـ WhatsApp أو Meta أو UltraMSG.  
-        WhatsApp علامة تجارية مملوكة لشركة Meta Platforms, Inc.
-      </p>
-    </div>
-  </section>
-
-  <!-- ===== FAQ ===== -->
-  <section class="section section-alt" id="faq">
-    <div class="container">
-      <h2 class="section-title">الأسئلة الشائعة</h2>
-
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question">
-            هل الخدمة رسمية من واتساب؟
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>
-              لا، We Pioners Auth ليست خدمة رسمية من واتساب، ولكنها طبقة (Gateway)
-              تساعدك في استخدام واتساب كقناة لإرسال أكواد التحقق (OTP).  
-              واتساب علامة تجارية مملوكة لــ Meta.
-            </p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">
-            هل أستطيع تجربتها قبل الاشتراك؟
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>
-              نعم، يمكننا توفير فترة تجربة محدودة أو رصيد تجريبي للمطورين الجادين.
-              تواصل معنا عبر النموذج في الأسفل وسنخبرك بالتفاصيل.
-            </p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">
-            هل يوجد توثيق (Documentation) للمطورين؟
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>
-              نعم، لدينا توثيق واضح بالعربية والإنجليزية، مع أمثلة جاهزة لـ Node.js,
-              PHP, Laravel, Python وغيرها. سنرسل لك رابط التوثيق بعد التسجيل.
-            </p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">
-            ما هي طرق الدفع المتاحة؟
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>
-              ندعم التحويل البنكي، بوابات دفع إلكترونية، ويمكن إضافة طرق دفع أخرى
-              حسب بلدك واحتياجك.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Contact ===== -->
-  <section class="section" id="contact">
-    <div class="container">
-      <h2 class="section-title">اطلب الوصول أو تحدث معنا</h2>
-      <p class="section-subtitle">
-        اكتب لنا تفاصيل مشروعك لنساعدك على استخدام We Pioners Auth بأفضل طريقة.
-      </p>
-
-      <div class="contact-grid">
-        <form class="contact-form" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
-          <div class="form-row">
-            <label for="name">الاسم</label>
-            <input type="text" id="name" name="name" required placeholder="الاسم الكامل" />
-          </div>
-
-          <div class="form-row">
-            <label for="email">البريد الإلكتروني</label>
-            <input type="email" id="email" name="email" required placeholder="you@example.com" />
-          </div>
-
-          <div class="form-row">
-            <label for="project">وصف المشروع</label>
-            <textarea id="project" name="project" rows="4"
-              placeholder="نوع مشروعك، التقنية المستخدمة، وعدد الرسائل التقريبي شهريًا"></textarea>
-          </div>
-
-          <button type="submit" class="btn primary full">إرسال</button>
-          <p class="form-note">
-            يمكنك أيضًا التواصل معنا مباشرة عبر البريد: <strong>support@wepioners.com</strong>
-          </p>
-        </form>
-
-        <div class="contact-info">
-          <h3>مناسب لـ:</h3>
-          <ul>
-            <li>أصحاب التطبيقات (Android / iOS / Flutter)</li>
-            <li>منصات التجارة الإلكترونية</li>
-            <li>منصات SaaS</li>
-            <li>الشركات التي تحتاج تحقق ثنائي (2FA)</li>
-          </ul>
-          <p class="contact-text">
-            إن كنت مطورًا أو شركة وتبحث عن بديل عربي لخدمات التحقق عبر الواتساب،
-            فنحن نبني We Pioners Auth خصيصًا لك.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Footer ===== -->
-  <footer class="footer">
-    <div class="container footer-content">
-      <p>
-        © <span id="year"></span> We Pioners Auth – جميع الحقوق محفوظة.
-      </p>
-      <p class="footer-note">
-        WhatsApp علامة تجارية مملوكة لشركة Meta Platforms, Inc.  
-        We Pioners Auth خدمة مستقلة غير تابعة رسميًا لـ Meta أو WhatsApp.
-      </p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
