@@ -1,5 +1,5 @@
 /* ============================================
-   Nabza OTP - Stripe-Inspired Landing Page
+   Nabda OTP - Stripe-Inspired Landing Page
    ============================================ */
 
 /* CSS Variables / Design Tokens */
@@ -226,6 +226,12 @@ img {
 
 .logo-icon {
     font-size: 1.5rem;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
 .nav-links {
@@ -578,7 +584,7 @@ img {
 }
 
 .feature-primary {
-    background: linear-gradient(135deg, var(--blurple) 0%, var(--blurple-dark) 100%);
+    background: linear-gradient(135deg, var(--deep-navy) 0%, var(--navy-light) 100%);
     border: none;
     color: var(--white);
     grid-column: span 1;
@@ -586,11 +592,11 @@ img {
 
 .feature-primary h3,
 .feature-primary p {
-    color: var(--white);
+    color: #ffffff !important;
 }
 
 .feature-primary p {
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .feature-icon {
@@ -783,6 +789,117 @@ img {
     font-size: 1.125rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: var(--space-xl);
+}
+
+/* ============================================
+   Payment Methods Section
+   ============================================ */
+.payment-methods {
+    padding: var(--space-3xl) 0;
+    background: var(--off-white);
+    border-top: 1px solid var(--gray-100);
+}
+
+.payment-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--deep-navy);
+    margin-bottom: var(--space-xl);
+}
+
+.payment-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+}
+
+.payment-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-lg);
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    min-width: 120px;
+    transition: all var(--transition-base);
+}
+
+.payment-card:hover {
+    border-color: var(--blurple);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.payment-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.payment-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.payment-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--deep-navy);
+}
+
+.payment-coming-soon {
+    position: relative;
+    opacity: 0.7;
+}
+
+.payment-coming-soon:hover {
+    opacity: 1;
+}
+
+.coming-soon-badge {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: var(--white);
+    background: linear-gradient(135deg, var(--blurple) 0%, var(--blurple-dark) 100%);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-pill);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+    .payment-grid {
+        gap: var(--space-md);
+    }
+    
+    .payment-card {
+        min-width: 100px;
+        padding: var(--space-md);
+    }
+    
+    .payment-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* ============================================
+   SEO Content Section (Hidden but Crawlable)
+   ============================================ */
+.seo-content {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* ============================================
@@ -1037,5 +1154,150 @@ button:focus-visible {
 ::selection {
     background: var(--blurple);
     color: var(--white);
+}
+
+/* ============================================
+   Floating WhatsApp Button
+   ============================================ */
+.whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    z-index: 9999;
+    display: flex !important;
+    align-items: center;
+    gap: var(--space-sm);
+    text-decoration: none;
+    animation: floatIn 0.5s ease forwards;
+    visibility: visible !important;
+    opacity: 1;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.whatsapp-icon {
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    min-height: 56px;
+    border-radius: 50%;
+    background: #25D366;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    transition: all var(--transition-base);
+    flex-shrink: 0;
+}
+
+.whatsapp-icon svg {
+    width: 56px;
+    height: 56px;
+}
+
+.whatsapp-float:hover .whatsapp-icon {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+.whatsapp-text {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    background: var(--white);
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-lg);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--deep-navy);
+    transition: all var(--transition-base);
+}
+
+.whatsapp-arrow {
+    color: #25D366;
+    font-weight: 700;
+}
+
+.whatsapp-float:hover .whatsapp-text {
+    box-shadow: var(--shadow-xl);
+}
+
+/* RTL Support */
+[dir="rtl"] .whatsapp-float {
+    left: auto;
+    right: 24px;
+}
+
+[dir="rtl"] .whatsapp-arrow {
+    transform: scaleX(-1);
+}
+
+/* Mobile WhatsApp Button */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        bottom: 20px;
+        left: 20px;
+        display: flex !important;
+        visibility: visible !important;
+    }
+    
+    .whatsapp-icon {
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        min-height: 60px;
+        display: flex !important;
+    }
+    
+    .whatsapp-icon svg {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .whatsapp-text {
+        display: none !important;
+    }
+    
+    [dir="rtl"] .whatsapp-float {
+        left: auto;
+        right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .whatsapp-float {
+        bottom: 16px;
+        left: 16px;
+    }
+    
+    .whatsapp-icon {
+        width: 56px;
+        height: 56px;
+        min-width: 56px;
+        min-height: 56px;
+    }
+    
+    .whatsapp-icon svg {
+        width: 56px;
+        height: 56px;
+    }
+    
+    [dir="rtl"] .whatsapp-float {
+        left: auto;
+        right: 16px;
+    }
 }
 

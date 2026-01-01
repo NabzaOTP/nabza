@@ -1,5 +1,5 @@
 /**
- * Nabza OTP - Language Switching & Interactive Features
+ * Nabda OTP - Language Switching & Interactive Features
  * =====================================================
  * Handles dynamic translation, RTL support, and UI interactions
  */
@@ -10,8 +10,8 @@
 const translations = {
     en: {
         // Meta
-        "meta.title": "Nabza OTP – The Cheapest WhatsApp API & Best OTP Service in Iraq",
-        "meta.description": "Send unlimited WhatsApp OTPs & notifications with the first Arab WhatsApp Gateway. The most affordable API solution for Iraqi developers. Start for just $10/month.",
+        "meta.title": "Nabda OTP – The Cheapest WhatsApp API & Best OTP Service in Iraq",
+        "meta.description": "Send unlimited WhatsApp OTPs & notifications with the first Arab WhatsApp Gateway. The most affordable API solution for Arab developers. Start for just $10/month.",
         
         // Navigation
         "nav.features": "Features",
@@ -22,33 +22,33 @@ const translations = {
         
         // Hero Section
         "hero.badge": "🚀 First Arab WhatsApp Gateway",
-        "hero.title": "The First & Best WhatsApp Gateway in Iraq.",
-        "hero.subtitle": "Send unlimited OTPs & Notifications through our cloud gateway. The cheapest, most reliable API solution for developers. Direct integration with the most affordable pricing.",
+        "hero.title": "The Cheapest & First WhatsApp Gateway in Iraq, Syria & MENA Region.",
+        "hero.subtitle": "Send unlimited OTPs through our cloud gateway. The cheapest, most reliable API solution for developers. Direct integration with the most affordable pricing.",
         "hero.cta.primary": "Start Free Trial",
         "hero.cta.secondary": "View Documentation",
         "hero.price": "Starting at just <strong>$10/month</strong> — No per-message fees",
         
         // Code Terminal
-        "code.comment1": "// Sending OTP via Nabza Gateway",
+        "code.comment1": "// Sending OTP via Nabda Gateway",
         "code.message": '"Your code is: 847291"',
         "code.comment2": "// ✓ Delivered instantly",
         
         // Stats
-        "stats.businesses": "Iraqi Businesses Trust Us",
-        "stats.messages": "Messages Delivered",
+        "stats.businesses": "Businesses Trust Us",
+        "stats.messages": "Messages Sent",
         "stats.uptime": "Uptime Guaranteed",
-        "stats.first": "First in MENA Region",
+        "stats.reliable": "Most Reliable in MENA",
         
         // Features
-        "features.title": "Why Developers Choose Nabza OTP",
-        "features.subtitle": "The most affordable WhatsApp API with the best reliability. Built by Iraqi developers, for Arab developers.",
+        "features.title": "Why Developers Choose Nabda OTP",
+        "features.subtitle": "The most affordable WhatsApp API with the best reliability. Built by Arab developers, for Arab developers.",
         
         "features.cheapest.title": "Cheapest in Market",
         "features.cheapest.desc": "While others charge per message, we offer a flat monthly fee. Send unlimited WhatsApp messages for just $10/month — the most affordable API solution available.",
         "features.cheapest.highlight": "Save up to 90% compared to competitors",
         
         "features.local.title": "Local & Proud",
-        "features.local.desc": "The first Iraqi platform built specifically for Arab developers. We understand the local market and provide Arabic support with direct integration capabilities.",
+        "features.local.desc": "A local platform built specifically for Arab developers. We understand the local market and provide Arabic support with direct integration capabilities.",
         
         "features.developer.title": "Developer First",
         "features.developer.desc": "Clean RESTful API, comprehensive documentation, and SDKs for all major languages. Integrate our cloud gateway in minutes, not days.",
@@ -79,8 +79,15 @@ const translations = {
         
         // CTA
         "cta.title": "Ready to send your first message?",
-        "cta.subtitle": "Join 500+ Iraqi businesses using the cheapest WhatsApp API. Start your 10-day free trial today.",
+        "cta.subtitle": "Join 9+ Iraqi businesses using the cheapest WhatsApp API. Start your 10-day free trial today.",
         "cta.button": "Get Started Free",
+        
+        // Payment Methods
+        "payment.title": "Accepted Payment Methods",
+        "payment.soon": "Coming Soon",
+        
+        // WhatsApp
+        "whatsapp.help": "Hello, how we can help you?",
         
         // Footer
         "footer.desc": "The first and best WhatsApp API solution for Iraq and the MENA region. Cloud gateway with direct integration for developers.",
@@ -94,14 +101,14 @@ const translations = {
         "footer.contact": "Contact",
         "footer.privacy": "Privacy Policy",
         "footer.terms": "Terms of Service",
-        "footer.copyright": "© 2025 Nabza OTP. All rights reserved.",
-        "footer.seo": "Best WhatsApp API solution for Iraq and MENA region • Cheapest OTP Service • First Arab WhatsApp Gateway"
+        "footer.copyright": "© 2025 Nabda OTP. All rights reserved.",
+        "footer.seo": "Cheapest WhatsApp API $10/mo Unlimited • Best Twilio Alternative • UltraMsg Alternative • SendGrid Alternative • WhatsApp OTP Iraq • WhatsApp API Syria • MENA WhatsApp Gateway • First Arab WhatsApp API"
     },
     
     ar: {
         // Meta
         "meta.title": "نبضة OTP – أرخص خدمة واتساب API وأفضل بوابة OTP في العراق",
-        "meta.description": "أرسل رسائل OTP وإشعارات واتساب غير محدودة عبر أول بوابة عربية. أرخص حل API للمطورين العراقيين. ابدأ بـ 10 دولار/شهرياً فقط.",
+        "meta.description": "أرسل رسائل OTP واتساب غير محدودة عبر أول بوابة عربية. أرخص حل API للمطورين العرب. ابدأ بـ 10 دولار/شهرياً فقط.",
         
         // Navigation
         "nav.features": "المميزات",
@@ -112,8 +119,8 @@ const translations = {
         
         // Hero Section
         "hero.badge": "🚀 أول بوابة واتساب عربية",
-        "hero.title": "أول وأفضل بوابة واتساب في العراق.",
-        "hero.subtitle": "أرسل رسائل OTP وإشعارات غير محدودة عبر بوابتنا السحابية. الحل الأرخص والأكثر موثوقية للمطورين. تكامل مباشر بأفضل الأسعار.",
+        "hero.title": "أرخص وأول بوابة واتساب في العراق وسوريا ومنطقة الشرق الأوسط.",
+        "hero.subtitle": "أرسل رسائل OTP غير محدودة عبر بوابتنا السحابية. الحل الأرخص والأكثر موثوقية للمطورين. تكامل مباشر بأفضل الأسعار.",
         "hero.cta.primary": "ابدأ التجربة المجانية",
         "hero.cta.secondary": "عرض التوثيق",
         "hero.price": "ابتداءً من <strong>10$/شهرياً</strong> فقط — بدون رسوم لكل رسالة",
@@ -124,21 +131,21 @@ const translations = {
         "code.comment2": "// ✓ تم التوصيل فوراً",
         
         // Stats
-        "stats.businesses": "شركة عراقية تثق بنا",
+        "stats.businesses": "شركات تثق بنا",
         "stats.messages": "رسالة تم إرسالها",
         "stats.uptime": "وقت تشغيل مضمون",
-        "stats.first": "الأول في منطقة الشرق الأوسط",
+        "stats.reliable": "الأكثر موثوقية في الشرق الأوسط",
         
         // Features
         "features.title": "لماذا يختار المطورون نبضة OTP",
-        "features.subtitle": "أرخص خدمة واتساب API مع أفضل موثوقية. صُممت بواسطة مطورين عراقيين، للمطورين العرب.",
+        "features.subtitle": "أرخص خدمة واتساب API مع أفضل موثوقية. صُممت بواسطة مطورين عرب، للمطورين العرب.",
         
         "features.cheapest.title": "الأرخص في السوق",
         "features.cheapest.desc": "بينما يفرض الآخرون رسوماً لكل رسالة، نحن نقدم رسوماً شهرية ثابتة. أرسل رسائل واتساب غير محدودة مقابل 10 دولار/شهرياً فقط — أرخص حل API متاح.",
         "features.cheapest.highlight": "وفّر حتى 90% مقارنة بالمنافسين",
         
         "features.local.title": "محلي وفخور",
-        "features.local.desc": "أول منصة عراقية صُممت خصيصاً للمطورين العرب. نفهم السوق المحلي ونقدم دعماً بالعربية مع إمكانيات تكامل مباشر.",
+        "features.local.desc": "منصة محلية صُممت خصيصاً للمطورين العرب. نفهم السوق المحلي ونقدم دعماً بالعربية مع إمكانيات تكامل مباشر.",
         
         "features.developer.title": "المطور أولاً",
         "features.developer.desc": "واجهة RESTful API نظيفة، توثيق شامل، وحزم تطوير لجميع اللغات الرئيسية. ادمج بوابتنا السحابية في دقائق، وليس أيام.",
@@ -169,8 +176,15 @@ const translations = {
         
         // CTA
         "cta.title": "مستعد لإرسال رسالتك الأولى؟",
-        "cta.subtitle": "انضم إلى أكثر من 500 شركة عراقية تستخدم أرخص WhatsApp API. ابدأ تجربتك المجانية لمدة 10 أيام اليوم.",
+        "cta.subtitle": "انضم إلى أكثر من 9 شركات عربية تستخدم أرخص WhatsApp API. ابدأ تجربتك المجانية لمدة 10 أيام اليوم.",
         "cta.button": "ابدأ مجاناً",
+        
+        // Payment Methods
+        "payment.title": "طرق الدفع المقبولة",
+        "payment.soon": "قريباً",
+        
+        // WhatsApp
+        "whatsapp.help": "مرحباً، كيف يمكننا مساعدتك؟",
         
         // Footer
         "footer.desc": "أول وأفضل حل WhatsApp API للعراق ومنطقة الشرق الأوسط. بوابة سحابية مع تكامل مباشر للمطورين.",
@@ -185,7 +199,7 @@ const translations = {
         "footer.privacy": "سياسة الخصوصية",
         "footer.terms": "شروط الخدمة",
         "footer.copyright": "© 2025 نبضة OTP. جميع الحقوق محفوظة.",
-        "footer.seo": "أفضل حل WhatsApp API للعراق ومنطقة الشرق الأوسط • أرخص خدمة OTP • أول بوابة واتساب عربية"
+        "footer.seo": "أرخص واتساب API 10$ شهرياً غير محدود • بديل تويليو • بديل الترامسج • بديل سيندغريد • خدمة OTP العراق • واتساب API سوريا • بوابة واتساب الشرق الأوسط • أول واتساب API عربي"
     }
 };
 
