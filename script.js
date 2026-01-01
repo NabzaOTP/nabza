@@ -11,7 +11,7 @@ const translations = {
     en: {
         // Meta
         "meta.title": "Nabda OTP – The Cheapest WhatsApp API & Best OTP Service in Iraq",
-        "meta.description": "Send unlimited WhatsApp OTPs & notifications with the first Arab WhatsApp Gateway. The most affordable API solution for Arab developers. Start for just $10/month.",
+        "meta.description": "Send unlimited WhatsApp OTPs with the first Arab WhatsApp Gateway. The most affordable API solution for Arab developers. Start for just $10/month.",
         
         // Navigation
         "nav.features": "Features",
@@ -21,7 +21,7 @@ const translations = {
         "nav.lang": "العربية",
         
         // Hero Section
-        "hero.badge": "🚀 First Arab WhatsApp Gateway",
+        "hero.badge": "🚀 The most reliable WhatsApp verification platform",
         "hero.title": "The Cheapest & First WhatsApp Gateway in Iraq, Syria & MENA Region.",
         "hero.subtitle": "Send unlimited OTPs through our cloud gateway. The cheapest, most reliable API solution for developers. Direct integration with the most affordable pricing.",
         "hero.cta.primary": "Start Free Trial",
@@ -118,7 +118,7 @@ const translations = {
         "nav.lang": "English",
         
         // Hero Section
-        "hero.badge": "🚀 أول بوابة واتساب عربية",
+        "hero.badge": "🚀المنصة الاكثر موثوقية في الشرق الاوسط",
         "hero.title": "أرخص وأول بوابة واتساب في العراق وسوريا ومنطقة الشرق الأوسط.",
         "hero.subtitle": "أرسل رسائل OTP غير محدودة عبر بوابتنا السحابية. الحل الأرخص والأكثر موثوقية للمطورين. تكامل مباشر بأفضل الأسعار.",
         "hero.cta.primary": "ابدأ التجربة المجانية",
