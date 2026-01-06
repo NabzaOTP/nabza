@@ -234,6 +234,10 @@ img {
     object-fit: contain;
 }
 
+.mobile-menu {
+    display: contents;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
@@ -1031,8 +1035,12 @@ img {
         --container-padding: 1rem;
     }
     
-    .nav-links,
-    .nav-actions {
+    .mobile-menu {
+        display: none;
+    }
+    
+    .mobile-menu .nav-links,
+    .mobile-menu .nav-actions {
         display: none;
     }
     
@@ -1090,28 +1098,52 @@ img {
 }
 
 /* Mobile Navigation (When Active) */
-.nav.active .nav-links,
-.nav.active .nav-actions {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
+@media (max-width: 768px) {
+    .nav.active .mobile-menu {
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        padding: var(--space-lg);
+        border-bottom: 1px solid var(--gray-100);
+        box-shadow: var(--shadow-lg);
+        z-index: 1000;
+    }
+    
+    .nav.active .mobile-menu .nav-links {
+        display: flex !important;
+        flex-direction: column;
+        gap: var(--space-md);
+        margin-bottom: var(--space-md);
+        padding-bottom: var(--space-md);
+        border-bottom: 1px solid var(--gray-100);
+    }
+    
+    .nav.active .mobile-menu .nav-actions {
+        display: flex !important;
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+    
+    .nav.active .mobile-menu .nav-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Overlay when menu is open */
+.nav.active::before {
+    content: '';
+    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
-    background: var(--white);
-    padding: var(--space-lg);
-    border-bottom: 1px solid var(--gray-100);
-    box-shadow: var(--shadow-lg);
-}
-
-.nav.active .nav-links {
-    gap: var(--space-md);
-}
-
-.nav.active .nav-actions {
-    gap: var(--space-sm);
-    padding-top: var(--space-md);
-    border-top: 1px solid var(--gray-100);
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
 }
 
 /* Animation Classes */

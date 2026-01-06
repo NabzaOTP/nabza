@@ -281,9 +281,11 @@ function toggleLanguage() {
 function initMobileNav() {
     const mobileToggle = document.getElementById('mobileToggle');
     const nav = document.querySelector('.nav');
+    const mobileMenu = document.getElementById('mobileMenu');
     
     if (mobileToggle && nav) {
-        mobileToggle.addEventListener('click', () => {
+        mobileToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             nav.classList.toggle('active');
             mobileToggle.classList.toggle('active');
         });
@@ -295,6 +297,23 @@ function initMobileNav() {
                 mobileToggle.classList.remove('active');
             });
         });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (nav.classList.contains('active')) {
+                if (!mobileMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                    nav.classList.remove('active');
+                    mobileToggle.classList.remove('active');
+                }
+            }
+        });
+        
+        // Prevent menu clicks from closing
+        if (mobileMenu) {
+            mobileMenu.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+        }
     }
 }
 
