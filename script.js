@@ -40,8 +40,8 @@ const translations = {
         "stats.reliable": "Most Reliable in MENA",
         
         // Features
-        "features.title": "Why Developers Choose Nabda OTP",
-        "features.subtitle": "The most affordable WhatsApp API with the best reliability. Built by Arab developers, for Arab developers.",
+        "features.title": "Why choose Nabda OTP ?",
+        "features.subtitle": "The most affordable WhatsApp API with the best reliability. Built by Arab developers, for Arab developers🤍.",
         
         "features.cheapest.title": "Cheapest in Market",
         "features.cheapest.desc": "While others charge per message, we offer a flat monthly fee. Send unlimited WhatsApp messages for just $10/month — the most affordable API solution available.",
@@ -79,7 +79,7 @@ const translations = {
         
         // CTA
         "cta.title": "Ready to send your first message?",
-        "cta.subtitle": "Join 9+ Iraqi businesses using the cheapest WhatsApp API. Start your 10-day free trial today.",
+        "cta.subtitle": "Join 9+ Arab businesses using the cheapest WhatsApp API. Start your 10-day free trial today.",
         "cta.button": "Get Started Free",
         
         // Payment Methods
@@ -102,7 +102,7 @@ const translations = {
         "footer.privacy": "Privacy Policy",
         "footer.terms": "Terms of Service",
         "footer.copyright": "© 2025 Nabda OTP. All rights reserved.",
-        "footer.seo": "Cheapest WhatsApp API $10/mo Unlimited • Best Twilio Alternative • UltraMsg Alternative • SendGrid Alternative • WhatsApp OTP Iraq • WhatsApp API Syria • MENA WhatsApp Gateway • First Arab WhatsApp API"
+        "footer.seo": "Cheapest WhatsApp API $10/mo Unlimited • Best Twilio Alternative • UltraMsg Alternative • SendGrid Alternative • WhatsApp OTP Iraq • WhatsApp API Syria • MENA WhatsApp Gateway • First Arab WhatsApp API • أرخص واتساب API • بديل تويليو • خدمة OTP العراق"
     },
     
     ar: {
@@ -118,7 +118,7 @@ const translations = {
         "nav.lang": "English",
         
         // Hero Section
-        "hero.badge": "🚀المنصة الاكثر موثوقية في الشرق الاوسط",
+        "hero.badge": "🚀 المنصة الأكثر موثوقية للتحقق عبر واتساب",
         "hero.title": "أرخص وأول بوابة واتساب في العراق وسوريا ومنطقة الشرق الأوسط.",
         "hero.subtitle": "أرسل رسائل OTP غير محدودة عبر بوابتنا السحابية. الحل الأرخص والأكثر موثوقية للمطورين. تكامل مباشر بأفضل الأسعار.",
         "hero.cta.primary": "ابدأ التجربة المجانية",
@@ -137,8 +137,8 @@ const translations = {
         "stats.reliable": "الأكثر موثوقية في الشرق الأوسط",
         
         // Features
-        "features.title": "لماذا يختار المطورون نبضة OTP",
-        "features.subtitle": "أرخص خدمة واتساب API مع أفضل موثوقية. صُممت بواسطة مطورين عرب، للمطورين العرب.",
+        "features.title": "لماذا تختار نبضة OTP ؟",
+        "features.subtitle": "أرخص خدمة واتساب API مع أفضل موثوقية. صُممت بواسطة مطورين عرب، للمطورين العرب🤍.",
         
         "features.cheapest.title": "الأرخص في السوق",
         "features.cheapest.desc": "بينما يفرض الآخرون رسوماً لكل رسالة، نحن نقدم رسوماً شهرية ثابتة. أرسل رسائل واتساب غير محدودة مقابل 10 دولار/شهرياً فقط — أرخص حل API متاح.",
