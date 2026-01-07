@@ -1,3 +1,4 @@
+
 /**
  * Nabda OTP - Language Switching & Interactive Features
  * =====================================================
@@ -101,7 +102,7 @@ const translations = {
         "footer.contact": "Contact",
         "footer.privacy": "Privacy Policy",
         "footer.terms": "Terms of Service",
-        "footer.copyright": "© 2025 Nabda OTP. All rights reserved.",
+        "footer.copyright": "© 2026 Nabda OTP. All rights reserved.",
         "footer.seo": "Cheapest WhatsApp API $10/mo Unlimited • Best Twilio Alternative • UltraMsg Alternative • SendGrid Alternative • WhatsApp OTP Iraq • WhatsApp API Syria • MENA WhatsApp Gateway • First Arab WhatsApp API • أرخص واتساب API • بديل تويليو • خدمة OTP العراق"
     },
     
@@ -144,7 +145,7 @@ const translations = {
         "features.cheapest.desc": "بينما يفرض الآخرون رسوماً لكل رسالة، نحن نقدم رسوماً شهرية ثابتة. أرسل رسائل واتساب غير محدودة مقابل 10 دولار/شهرياً فقط — أرخص حل API متاح.",
         "features.cheapest.highlight": "وفّر حتى 90% مقارنة بالمنافسين",
         
-        "features.local.title": "محلي وفخور",
+        "features.local.title": "محلي وبفخر",
         "features.local.desc": "منصة محلية صُممت خصيصاً للمطورين العرب. نفهم السوق المحلي ونقدم دعماً بالعربية مع إمكانيات تكامل مباشر.",
         
         "features.developer.title": "المطور أولاً",
