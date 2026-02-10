@@ -53,4 +53,36 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.nabdaotp.com/"/>
   </url>
 
+  <!-- About Page -->
+  <url>
+    <loc>https://www.nabdaotp.com/about.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://www.nabdaotp.com/privacy-policy.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Terms of Service Page -->
+  <url>
+    <loc>https://www.nabdaotp.com/terms-of-service.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Refund Policy Page -->
+  <url>
+    <loc>https://www.nabdaotp.com/refund-policy.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>

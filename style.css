@@ -1189,6 +1189,176 @@ button:focus-visible {
 }
 
 /* ============================================
+   Legal Pages (About, Privacy, Terms, etc.)
+   ============================================ */
+.legal-page {
+    padding-top: 120px;
+    padding-bottom: var(--space-4xl);
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--off-white) 0%, var(--white) 100%);
+}
+
+.legal-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+.legal-header {
+    margin-bottom: var(--space-2xl);
+    padding-bottom: var(--space-xl);
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.legal-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-lg);
+    font-size: 0.875rem;
+    color: var(--gray-500);
+}
+
+.legal-breadcrumb a {
+    color: var(--blurple);
+    transition: color var(--transition-fast);
+}
+
+.legal-breadcrumb a:hover {
+    color: var(--blurple-dark);
+}
+
+.legal-breadcrumb span {
+    color: var(--gray-400);
+}
+
+.legal-title {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: var(--deep-navy);
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-md);
+}
+
+.legal-subtitle {
+    font-size: 1.125rem;
+    color: var(--navy-lighter);
+    line-height: 1.7;
+}
+
+.legal-content {
+    background: var(--white);
+    border: 1px solid var(--gray-100);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.legal-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--deep-navy);
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-md);
+}
+
+.legal-content h2:first-child {
+    margin-top: 0;
+}
+
+.legal-content h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--deep-navy);
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-md);
+}
+
+.legal-content h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--deep-navy);
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-sm);
+}
+
+.legal-content p {
+    font-size: 1rem;
+    color: var(--navy-lighter);
+    line-height: 1.8;
+    margin-bottom: var(--space-md);
+}
+
+.legal-content ul,
+.legal-content ol {
+    margin-bottom: var(--space-md);
+    padding-left: var(--space-xl);
+}
+
+.legal-content li {
+    font-size: 1rem;
+    color: var(--navy-lighter);
+    line-height: 1.8;
+    margin-bottom: var(--space-sm);
+}
+
+.legal-content a {
+    color: var(--blurple);
+    text-decoration: underline;
+    transition: color var(--transition-fast);
+}
+
+.legal-content a:hover {
+    color: var(--blurple-dark);
+}
+
+.legal-content strong {
+    color: var(--deep-navy);
+    font-weight: 600;
+}
+
+.legal-feature-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.legal-feature-list li {
+    position: relative;
+    padding-left: var(--space-xl);
+}
+
+.legal-feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--success);
+    font-weight: 700;
+}
+
+.legal-notice {
+    background: linear-gradient(135deg, rgba(99, 91, 255, 0.05) 0%, rgba(99, 91, 255, 0.02) 100%);
+    border: 1px solid rgba(99, 91, 255, 0.1);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin-top: var(--space-xl);
+}
+
+.legal-notice p {
+    margin-bottom: 0;
+    font-size: 0.9375rem;
+}
+
+@media (max-width: 768px) {
+    .legal-page {
+        padding-top: 100px;
+    }
+    
+    .legal-content {
+        padding: var(--space-lg);
+    }
+}
+
+/* ============================================
    Floating WhatsApp Button
    ============================================ */
 .whatsapp-float {
