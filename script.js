@@ -80,7 +80,7 @@ const translations = {
         
         // CTA
         "cta.title": "Ready to send your first message?",
-        "cta.subtitle": "Join 9+ Arab businesses using the cheapest WhatsApp API. Start your 10-day free trial today.",
+        "cta.subtitle": "Join 65+ Arab businesses using the cheapest WhatsApp API. Start your 10-day free trial today.",
         "cta.button": "Get Started Free",
         
         // Payment Methods
@@ -102,7 +102,7 @@ const translations = {
         "footer.contact": "Contact",
         "footer.privacy": "Privacy Policy",
         "footer.terms": "Terms of Service",
-        "footer.copyright": "© 2026 Nabda OTP. All rights reserved.",
+        "footer.copyright": "© 2026 Nabda OTP. All rights reserved. Nabda OTP is a product owned and operated by We Pioners Ltd",
         "footer.seo": "Cheapest WhatsApp API $10/mo Unlimited • Best Twilio Alternative • UltraMsg Alternative • SendGrid Alternative • WhatsApp OTP Iraq • WhatsApp API Syria • MENA WhatsApp Gateway • First Arab WhatsApp API • أرخص واتساب API • بديل تويليو • خدمة OTP العراق"
     },
     
@@ -177,7 +177,7 @@ const translations = {
         
         // CTA
         "cta.title": "مستعد لإرسال رسالتك الأولى؟",
-        "cta.subtitle": "انضم إلى أكثر من 9 شركات عربية تستخدم أرخص WhatsApp API. ابدأ تجربتك المجانية لمدة 10 أيام اليوم.",
+        "cta.subtitle": "انضم إلى أكثر من 65 شركة عربية تستخدم أرخص WhatsApp API. ابدأ تجربتك المجانية لمدة 10 أيام اليوم.",
         "cta.button": "ابدأ مجاناً",
         
         // Payment Methods
@@ -199,7 +199,7 @@ const translations = {
         "footer.contact": "اتصل بنا",
         "footer.privacy": "سياسة الخصوصية",
         "footer.terms": "شروط الخدمة",
-        "footer.copyright": "© 2025 نبضة OTP. جميع الحقوق محفوظة.",
+        "footer.copyright": "© 2026 نبضة OTP. جميع الحقوق محفوظة. نبضة OTP منتج مملوك ومُدار من قبل We Pioners Ltd",
         "footer.seo": "أرخص واتساب API 10$ شهرياً غير محدود • بديل تويليو • بديل الترامسج • بديل سيندغريد • خدمة OTP العراق • واتساب API سوريا • بوابة واتساب الشرق الأوسط • أول واتساب API عربي"
     }
 };
